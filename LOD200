@@ -6,8 +6,8 @@ Shader "Example/Decal" {
   }
   SubShader {
     Tags { "RenderType"="Opaque" "Queue"="Geometry+1" "ForceNoShadowCasting"="True" }
-    LOD 200
-    Offset -1, -1
+    LOD 300
+    Offset -1, 0
     
     CGPROGRAM
     #pragma surface surf Lambert decal:blend
