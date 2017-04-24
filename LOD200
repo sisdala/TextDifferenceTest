@@ -1,5 +1,4 @@
 這是第一行
-﻿這是第一行
 以下是程式碼
 Shader "Example/Decal" {
   Properties {
@@ -7,7 +6,6 @@ Shader "Example/Decal" {
   }
   SubShader {
     Tags { "RenderType"="Opaque" "Queue"="Geometry+1" "ForceNoShadowCasting"="True" }
-    LOD 200
     LOD 300
     Offset -1, -1
     
