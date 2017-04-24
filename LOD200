@@ -6,7 +6,11 @@ Shader "Example/Decal" {
   }
   SubShader {
     Tags { "RenderType"="Opaque" "Queue"="Geometry+1" "ForceNoShadowCasting"="True" }
+<<<<<<< refs/remotes/origin/master
     LOD 300
+=======
+    LOD 200
+>>>>>>> Revert "LOD改成300"
     Offset -1, -1
     
     CGPROGRAM
