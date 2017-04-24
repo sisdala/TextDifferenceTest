@@ -1,5 +1,4 @@
 這是第一行
-﻿這是第一行
 以下是程式碼
 Shader "Example/Decal" {
   Properties {
@@ -7,15 +6,7 @@ Shader "Example/Decal" {
   }
   SubShader {
     Tags { "RenderType"="Opaque" "Queue"="Geometry+1" "ForceNoShadowCasting"="True" }
-<<<<<<< refs/remotes/origin/master
     LOD 300
-=======
-    LOD 200
-<<<<<<< refs/remotes/origin/master
->>>>>>> Revert "LOD改成300"
-=======
-    LOD 300
->>>>>>> Revert "Revert "LOD改成300""
     Offset -1, -1
     
     CGPROGRAM
